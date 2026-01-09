@@ -1,0 +1,9 @@
+{
+  "name": "rhyme-meter-assistant",
+  "version": "0.1.0",
+  "scripts": {
+    "backend": "cd backend && source venv/bin/activate && python app.py",
+    "frontend": "cd frontend && npm run dev",
+    "setup": "bash setup.sh"
+  }
+}
