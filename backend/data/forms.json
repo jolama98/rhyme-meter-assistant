@@ -1,0 +1,49 @@
+{
+  "forms": [
+    {
+      "id": "haiku",
+      "name": "Haiku",
+      "description": "A three-line Japanese poem with 5-7-5 syllable pattern",
+      "lines": 3,
+      "syllable_pattern": [5, 7, 5],
+      "rhyme_scheme": null,
+      "meter": null
+    },
+    {
+      "id": "sonnet",
+      "name": "Sonnet",
+      "description": "14-line poem with specific rhyme scheme",
+      "lines": 14,
+      "syllable_pattern": null,
+      "rhyme_scheme": "ABAB CDCD EFEF GG",
+      "meter": "iambic pentameter"
+    },
+    {
+      "id": "limerick",
+      "name": "Limerick",
+      "description": "Five-line humorous poem with AABBA rhyme scheme",
+      "lines": 5,
+      "syllable_pattern": [8, 8, 5, 5, 8],
+      "rhyme_scheme": "AABBA",
+      "meter": "anapestic"
+    },
+    {
+      "id": "free_verse",
+      "name": "Free Verse",
+      "description": "Poetry without consistent meter or rhyme scheme",
+      "lines": null,
+      "syllable_pattern": null,
+      "rhyme_scheme": null,
+      "meter": null
+    },
+    {
+      "id": "couplet",
+      "name": "Couplet",
+      "description": "Two-line stanza with rhyming end words",
+      "lines": 2,
+      "syllable_pattern": null,
+      "rhyme_scheme": "AA",
+      "meter": null
+    }
+  ]
+}
