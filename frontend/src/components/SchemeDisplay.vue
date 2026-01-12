@@ -1,7 +1,7 @@
 <template>
   <div class="scheme-display">
     <h3>Rhyme Scheme</h3>
-    <div class="scheme-pattern">
+    <div class="scheme-pattern " > 
       {{ scheme || 'Type to detect rhyme scheme' }}
     </div>
   </div>
@@ -29,7 +29,7 @@ export default {
   font-weight: bold;
   font-family: monospace;
   padding: 1rem;
-  background: #f5f5f5;
+  background: #9e9b9b;
   border-radius: 4px;
   text-align: center;
 }
